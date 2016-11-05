@@ -1,3 +1,68 @@
 // Place all the styles related to the hikes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.nav-wrapper{
+  background: #2e7d32;
+  font-family: 'Ribeye', cursive;
+}
+a.brand-logo {
+    color:white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 38px;
+}
+
+  .brand-logo {
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+
+.trailsSearch {
+  margin: 0 auto;
+  overflow:hidden;
+  font-family:'Sumana', serif;
+}
+
+ body {
+    background: url(https://source.unsplash.com/user/axjimenez89/likes/1600x900);
+}
+
+.inputs-holder{
+background: rgba(0, 0, 0, 0.6);
+display: block;
+width: 300px;
+font-size: 16px;
+line-height: 16px;
+position: relative;
+padding: 0px 19px 0px 9px;
+border-radius: 10px 10px 10px 10px;
+}
+.container {
+    margin: 165px auto;
+    max-width: 150px;
+    width: 50%;
+}
+
+#home-search{
+border: 2px solid #000;
+height: 36px;
+width: 204px;
+background: #f5f5f5;
+font-color: #424242;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  body.welcome {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
