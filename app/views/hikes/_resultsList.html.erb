@@ -1,0 +1,17 @@
+<div class="results">
+        <h5> Your Trails: </h4>
+          <% if @response %>
+           <%= @response.each do |trails| %>
+                <h4> <%= trails['name'] %> </h4>
+                <hr>
+                <ul>
+                <li class ="fixed"><%= trails['name'] %></li>
+                <% trails["activities"].each do |activity| %>
+                <li class="title"> Trail: <%= activity["name"] %></li>
+                <li class=''> Rating: <%= activity["rating"] %></li>
+                <% end %>
+               <% end %>
+             <% end %>
+            </ul>
+        </div>
+

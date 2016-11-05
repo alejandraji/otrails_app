@@ -1,0 +1,16 @@
+<%= render 'navbar' %>
+  <%= render 'search' %>
+     <div class="item_info">
+            <h3> Trail results: </h3>
+          <% if @response %>
+           <% @response.each do |trails| %>
+                <h4> <%= trails['name'] %> </h4>
+                <li> Name: <%= trails['name'] %></li>
+                <% trails["activities"].each do |activity| %>
+                <li> Rating: <%= activity["rating"] %></li>
+                <% end %>
+               <% end %>
+             <% end %>
+            </ul>
+        <div id="map" style = ""></div>
+    </div>
