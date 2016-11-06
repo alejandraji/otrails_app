@@ -3,12 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .nav-wrapper{
   background: #2e7d32;
-  font-family: 'Ribeye', cursive;
+
 }
 a.brand-logo {
-    color:white;
-    text-shadow: 1px 1px 2px white;
-    font-size: 38px;
+  font-family: 'Coustard', serif;
+  color:white;
+  font-size: 38px;
 }
 
   .brand-logo {
@@ -22,6 +22,7 @@ a.brand-logo {
     white-space: nowrap;
     margin-left: 50px;
 }
+
 
 
 .trailsSearch {
