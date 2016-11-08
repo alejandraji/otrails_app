@@ -1,0 +1,166 @@
+/* line 4, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.nav-wrapper {
+  background: #2e7d32;
+}
+
+/* line 7, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.nav {
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 30px;
+}
+
+/* line 13, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* line 19, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+ul li {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 24, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+a.brand-logo {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* line 32, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.brand-logo {
+  position: absolute;
+  top: 9px;
+  margin: auto;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+  margin-left: 16px;
+}
+
+/* line 44, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.trailsSearch {
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: 'Sumana', serif;
+}
+
+/* line 50, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+body {
+  background: url(https://source.unsplash.com/user/axjimenez89/likes/1600x900);
+}
+
+/* line 54, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.inputs-holder {
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+  width: 295px;
+  font-size: 18px;
+  line-height: 40px;
+  position: relative;
+  padding: 0px 10px 0px 9px;
+  border-radius: 9px 10px 10px 10px;
+}
+
+/* line 64, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+.container {
+  margin: 165px auto;
+  max-width: 150px;
+  width: 50%;
+}
+
+/* line 70, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+#home-search {
+  border: 2px solid #000;
+  height: 36px;
+  width: 204px;
+  background: #f5f5f5;
+  font-color: #424242;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  /* line 79, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/hikes.scss */
+  body.welcome {
+    left: 50%;
+    margin-left: -512px;
+    /* 50% */
+  }
+}
+/* line 1, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+.results {
+  float: right;
+  position: relative;
+  overflow: scroll;
+  margin-left: 600px;
+  margin-right: 400px;
+  margin-bottom: 300px;
+}
+
+/* line 9, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+.btn {
+  background: #ffe0b2;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 35px;
+  line-height: 33px;
+  outline: 0;
+  padding: 0px 2rem;
+  font-size: 18px;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 24, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+#destSubmitBtn {
+  background: orange;
+}
+
+/* line 28, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+.fixed {
+  color: blue;
+}
+
+/* line 31, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+h4 {
+  font-family: 'Cantora One', sans-serif;
+}
+
+/* line 35, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+h5 {
+  font-family: 'Cantora One', sans-serif;
+  font-color: #fff3e0;
+}
+
+/* line 40, /Users/alejandrajimenez/Desktop/otrails/app/assets/stylesheets/results.scss */
+.item_info {
+  position: absolute;
+  margin-left: 470px;
+  margin-right: 431px;
+  border: 1px solid black;
+  width: 321px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
