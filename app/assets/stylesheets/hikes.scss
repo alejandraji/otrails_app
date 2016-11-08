@@ -10,11 +10,15 @@
  margin:0;
  padding:30px;
 }
+a {
+ text-decoration: none;
+ color: white;
+ font-family: 'Abril Fatface', cursive;
+}
 
 ul li {
  float: right;
  margin-left: 10px;
- text-decoration: none;
 }
 
 a.brand-logo {
